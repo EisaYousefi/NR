@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NestdApp</string>
+    <string name="title_home">TabLayout</string>
+    <string name="title_dashboard">Recycler</string>
+    <string name="title_notifications">CustomView</string>
+    <string name="call">تماس</string>
+</resources>

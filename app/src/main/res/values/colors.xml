@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#2196F3</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="primary_light">#BBDEFB</color>
+    <color name="accent">#FF5722</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#e7e1e1</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#64b5f6</color>
+    <color name="s">#a1887f</color>
+    <color name="w">#ffffff</color>
+    <color name="call_backgrnd">#82ed86</color>
+    <color name="contect_backgran">#a4a46d</color>
+    <color name="message_backgrand">#f24e73bc</color>
+</resources>

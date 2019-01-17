@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/message_backgrand"
+
+    android:layout_height="match_parent"
+>
+
+    <ImageView
+        android:id="@+id/img_message"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:src="@drawable/sms"/>
+
+    <TextView
+        android:id="@+id/tvm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Message"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/img_message"
+        android:layout_centerInParent="true"
+        android:textColor="#000"
+        android:textSize="22sp" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List of your contact"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tvm"
+        android:layout_centerInParent="true"
+        android:textStyle="italic"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:layout_gravity="center"/>
+
+</RelativeLayout>
